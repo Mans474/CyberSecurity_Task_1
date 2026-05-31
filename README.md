@@ -21,3 +21,15 @@ Took screenshot of the scan output
 139/tcp open  netbios-ssn
 445/tcp open  microsoft-ds
 # Explanation of TCP SYN Scan
+A TCP SYN scan is a ype of port scanning technique used by Nmap to identify open TCP ports. it sends a SYNC packet to the target port and checks the response without completing the full TCP handshake, making the scan fast and efficient.
+# POtential Security Risks
+Open ports may expose network services to attackers
+SMB-Realted ports like 139 ans 445 cna be targeted if systems are unpatched
+Unnecessary open services can increase network vulnerability
+# Key Concepts Learned
+Port Scanning
+TCP SYN Scan
+Open Ports
+Network Reconnaissance
+Service Detection
+Basic Network Security
